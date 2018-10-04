@@ -2032,7 +2032,7 @@ an external dependency with the following methods:
    version.
 
  - `partial_dependency(compile_args : false, link_args : false, links
-   : false, includes : false, source : false)` (*added 0.46.0*) returns
+   : false, includes : false, sources : false)` (*added 0.46.0*) returns
    a new dependency object with the same name, version, found status,
    type name, and methods as the object that called it. This new
    object will only inherit other attributes from its parent as
